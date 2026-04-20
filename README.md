@@ -23,12 +23,12 @@ LiteBounD demonstrates strong performance across multiple benchmarks:
 Comparison of our method with state-of-the-art approaches on multiple polyp segmentation datasets.
 
 <p align="center">
-  <img src="figures/IJCNN_Seen.pdf" width="90%">
+  <img src="figures/IJCNN-Seen.png" width="90%">
 </p>
 - 
 - **Unseen datasets**: ColonDB, CVC-300, ETIS  
 <p align="center">
-  <img src="figures/IJCNN_Unseen.pdf" width="90%">
+  <img src="figures/IJCNN-Unseen.png" width="90%">
 </p>
 
 ✅ Consistently outperforms lightweight baselines  
