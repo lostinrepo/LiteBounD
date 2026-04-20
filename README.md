@@ -1,11 +1,10 @@
 # LiteBounD
-LiteBounD: Lightweight Boundary-Guided Distillation for Polyp Segmentation using Vision Foundation Models
-
-## LiteBounD: Lightweight Boundary-Guided Distillation for Polyp Segmentation
+Sharpening Lightweight Models for Generalized Polyp Segmentation: A Boundary Guided Distillation from Foundation Models
+<p align="center">
+  <img src="figures/IJCNN-Model.pdf" width="90%">
+</p>
 
 This repository contains the official implementation of our IJCNN/WCCI accepted paper:
-
-**"LiteBounD: A Lightweight Boundary-Guided Distillation Framework for Polyp Segmentation"**
 
 ### 🔍 Overview
 Automated polyp segmentation plays a crucial role in early colorectal cancer detection. However, it remains challenging due to weak boundaries, large appearance variations, and limited annotated data.
@@ -15,15 +14,22 @@ While lightweight models (e.g., U-Net, U-Net++, PraNet) are efficient for clinic
 ### 💡 Our Approach: LiteBounD
 We propose **LiteBounD**, a novel framework that bridges this gap by distilling complementary knowledge from multiple VFMs into lightweight segmentation models.
 
-Key contributions:
-- 🔹 **Dual-Path Distillation**: Separates semantic and boundary-aware feature learning
-- 🔹 **Frequency-Aware Alignment**: Supervises low-frequency (global semantics) and high-frequency (boundary details) components independently
-- 🔹 **Boundary-Aware Decoder**: Enhances multi-scale feature fusion with structurally rich boundary priors
-
 ### 📊 Results
 LiteBounD demonstrates strong performance across multiple benchmarks:
-- **Seen datasets**: Kvasir-SEG, CVC-ClinicDB  
+- **Seen datasets**: Kvasir-SEG, CVC-ClinicDB
+
+
+## Qualitative Results
+Comparison of our method with state-of-the-art approaches on multiple polyp segmentation datasets.
+
+<p align="center">
+  <img src="figures/IJCNN_Seen.pdf" width="90%">
+</p>
+- 
 - **Unseen datasets**: ColonDB, CVC-300, ETIS  
+<p align="center">
+  <img src="figures/IJCNN_Unseen.pdf" width="90%">
+</p>
 
 ✅ Consistently outperforms lightweight baselines  
 ✅ Competitive with state-of-the-art methods  
@@ -33,11 +39,6 @@ LiteBounD demonstrates strong performance across multiple benchmarks:
 - Efficient yet powerful segmentation framework  
 - Effective knowledge transfer from large foundation models  
 - Robust generalization across datasets  
-
-### 📌 Keywords
-Polyp Segmentation, Knowledge Distillation, Foundation Models, Boundary Learning, Frequency Decomposition
-
----
 
 ### 📎 Citation
 If you find this work useful, please consider citing:
