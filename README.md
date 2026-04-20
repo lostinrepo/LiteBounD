@@ -1,7 +1,7 @@
 # LiteBounD
 Sharpening Lightweight Models for Generalized Polyp Segmentation: A Boundary Guided Distillation from Foundation Models
 <p align="center">
-  <img src="figures/IJCNN-Model.pdf" width="90%">
+  <img src="figures/IJCNN-Model.png" width="90%">
 </p>
 
 This repository contains the official implementation of our IJCNN/WCCI accepted paper:
